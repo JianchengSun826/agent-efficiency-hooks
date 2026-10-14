@@ -1,0 +1,2 @@
+# Only needed for comment-preserving Hermes YAML installation; runtime has no dependencies.
+ruamel.yaml>=0.18,<0.19

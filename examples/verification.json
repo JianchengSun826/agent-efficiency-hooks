@@ -1,0 +1,10 @@
+{
+  "mode": "warn",
+  "verification": [
+    {
+      "command": "python3 -m unittest tests.test_parser",
+      "inputs": ["src/parser.py", "tests/test_parser.py", "pyproject.toml"],
+      "complete": false
+    }
+  ]
+}
